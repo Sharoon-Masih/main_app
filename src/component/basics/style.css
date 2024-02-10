@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.progressBar{
+    position: sticky;
+    top: 0%;
+    height: 3px;
+    width:0vw ;
+    background-color: lightgoldenrodyellow;
+    animation: progressbar 2s ease-in-out 1 ;
+    z-index: 3;
+    
+}
+@keyframes progressbar {
+    0%{
+        width: 0vw;
+    }
+    50%{
+        width: 50vw; 
+    }
+    100%{
+        width:  98.9vw;
+    }
+}
+.barContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    /* top: 4%; */
+    /* width: 20vw; */
+    /* height: 15vh; */
+    /* background-color: lightgoldenrodyellow; */
+}
+.bar{
+    position: relative;
+    display: flex;
+    top: 50px;
+    background-color: lightgoldenrodyellow;
+    width: 50vw;
+    height: 7vh;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+
+}
+.items{
+    display: flex;
+    
+}
+.item{
+    padding: 0% 20px;
+}
+.btn{
+    text-transform: uppercase;
+    font-family: "roboto";
+    font-size:medium;
+    background-color: lightgoldenrodyellow;
+    border: none;
+}
+.btn:hover{
+    cursor: pointer;
+    font-weight: bold; 
+    /* text-decoration:; */
+    font-weight: 500px; 
+}
+.Card-Container{
+    /* box-shadow:10px 5px 5px white; */
+    /* border-radius: 8px; */
+    margin: 1%;
+    padding: 2% 0 2% 0;
+    /* height: 100vh; */
+    position: relative;
+    top: 12vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 30px;
+    grid-column-gap: 10%;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    background-color:lightgoldenrodyellow;
+    overflow: hidden;
+    max-height: 1000vh;
+    animation: animateCont 3s ease-in 0.1s 1 normal 
+    
+}
+@keyframes animateCont {
+    from{
+        height: 0vh;
+    }
+    to{
+        height: 70vh;
+    }
+}
+.cardBody{
+    padding: 10% 7%;
+    font-family: roboto;
+
+}
+.card{
+    width: 21vw;
+    max-height: 57vh; /*yaha max-height iss lia use ki hai ka "57vh" sa greater height nahi hogi kisi be card ki.*/
+    display: inline-block;
+  background-color: white;
+  /* border-radius: 7px; */
+}
+.card:hover{
+
+  border: 2px solid black;
+     box-sizing: border-box; /*yaha border box iss lia kia hai taka jab user hover kray toh baki ka boxes ki width ma issue na aya bcuz jab hover hoga toh border appear jiski waja sa sth wala element disturb hongay iss lia humna usko border box bna dia taka jo sth ma elements hain wo disturb na hon. */
+  
+
+}
+ .card-Num{
+    padding:3px ;
+    height: 16px;
+    width: 17px;
+    font-size: 13px;
+    display: inline-block;
+    text-align: center;
+    font-family:roboto; 
+    border: 2px gray solid;
+    border-radius: 50%;
+
+    
+}
+.card-author{
+    /* display: inline-block; */
+    margin:7px 0px 0px 0px ;
+    text-transform: uppercase;
+    text-shadow: 5%;
+    font-size:11px;
+    font-weight:bold;
+}
+.card-Food{
+    margin: 5px 0 5px 0;
+    color: black;
+}
+.card-des{
+    font-size: 12px;
+    margin: 9px 0 7px 0;
+}
+.card-lineBreak{
+    width: 12vw;
+    display: inline-block;
+}
+.card-lineBreak hr{
+    color:lightgray ;
+}
+.card-read{
+    display: inline-block;
+    position: relative;
+    left: 28px;
+    margin: 0 2px 0 2px;
+    letter-spacing: 6px;
+    font-weight: bolder;
+    font-size: 13px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color:rgba(0, 0, 0, 0.716);    
+}
+
+.card-img img{
+    
+    margin: 10px 0 0 0;
+    width: 274px;
+  height: 160px;;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+.card-tag{
+    display: inline-block;
+    position: relative;
+    left: 40%;
+    margin: 5px 0 0 0;
+}
+.card-tag button{
+    padding: 5px;
+}
+.card-price{
+    display: inline-block;
+}
+
+/* .foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footbar{
+    margin: 50px;
+    width: 97vw;
+    height: 10vh;
+    background-color: rgb(250, 220, 210);
+    z-index: 1;
+} */
