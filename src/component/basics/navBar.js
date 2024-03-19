@@ -1,5 +1,7 @@
 import React from 'react'
-import "./style.css"
+import "./style.css";
+import "./responsive.css";
+
 
 const NavBar = ({ filterItem, NavData }) => {
     //    const [menu,Setmenu]=useState(menuApi)
@@ -9,7 +11,7 @@ const NavBar = ({ filterItem, NavData }) => {
                 <nav>
                     <div className="barContainer">
                         <div className="bar">
-                            <div className="items">
+
                                 {NavData.map((currItem) => {
                                     return (
                                         <>
@@ -20,7 +22,6 @@ const NavBar = ({ filterItem, NavData }) => {
                                 {/* <div className="item5 item"><button className='btn' onClick={() => { Setmenu(menu) }}>all</button></div> */}
                             </div>
                         </div>
-                    </div>
                 </nav>
             </header>
         </>

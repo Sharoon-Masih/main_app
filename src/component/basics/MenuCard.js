@@ -1,5 +1,7 @@
 import React from 'react'
-import "./style.css"
+import "./style.css";
+import "./responsive.css";
+
 
 const MenuCard = ({ menuData }) => { //Now mena simply jo prop bnaya tha jab MenuCard ko call kia tha "restuarant.js" ussi ko hi yaha mena jis name sa prop bnaya tha ussi name sa as a argument pass krdia. 
 

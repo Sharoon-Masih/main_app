@@ -1,6 +1,7 @@
 
 import React, { useState } from 'react'
 import "./style.css"; 
+import "./responsive.css";
 // import images from "./imgs/kaushal-premlani-778v4yb3G8s-unsplash.jpg"
 import menuApi from "./menuApi"
 import NavBar from './navBar';

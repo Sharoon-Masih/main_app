@@ -1,0 +1,117 @@
+@media screen and (max-width:1366px) {
+    .dashboard .weatherIcon1{
+        font-size: 1.5em;
+    }
+    .main-container{
+       font-size: 0.75rem;
+    }
+   
+}
+@media screen and (max-width:1010px) {
+    
+    .dashboard .weatherIcon1{
+        font-size: 1.5em;
+    }
+    .dashboard .weatherinfo {
+       
+        font-size: 1em;
+        
+    }
+    .dashboard .extra-temp{
+       
+        font-size: 1em;
+    }
+}
+@media screen and (max-width:980px) {
+    
+    .dashboard .weatherIcon1{
+        font-size: 1.5em;
+    }
+    .dashboard .weatherinfo {
+       
+        font-size: 1em;
+        
+    }
+    .dashboard .extra-temp{
+       
+        font-size: 0.7em;
+    }
+    
+}
+@media screen and (max-width:715px) {
+    
+    .dashboard .weatherIcon1{
+        font-size: 1.5em;
+    }
+    .dashboard .weatherinfo {
+       
+        font-size: 0.9em;
+        
+    }
+    .dashboard .extra-temp{
+       
+        font-size: 0.6em;
+    }
+    
+}
+@media screen and (max-width:650px) {
+    
+    .dashboard .weatherIcon1{
+        font-size: 1.5em;
+    }
+    .dashboard .weatherinfo {
+        flex-direction: column;
+        font-size: 1.5em;
+        
+    }
+    .dashboard .weatherinfo .temp-des{
+        width: 35vw;
+    }
+    .dashboard .weatherinfo .date{
+        width: 35vw;
+    }
+    .dashboard .extra-temp{
+        /* background-color: black; */
+        overflow: scroll;
+        margin: 1vh 0 1vh 0 ;
+        grid-template-columns: auto;
+        grid-row-gap: 1.5em;
+        font-size: 1.5em;
+    }
+}
+@media screen and (max-width:415px) {
+    .main-container .search{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .dashboard .weatherIcon1{
+        font-size: 1em;
+    }
+    .dashboard .weatherinfo {
+       
+        font-size: 0.9em;
+        
+    }
+    .dashboard .extra-temp{
+       
+        font-size: 1em;
+    }
+}
+@media screen and (max-width:430px) {
+    .main-container .search{
+        flex-direction: column;
+    }
+    .dashboard .weatherIcon1{
+        font-size: 1em;
+    }
+    .dashboard .weatherinfo {
+       
+        font-size: 0.9em;
+        
+    }
+    .dashboard .extra-temp{
+       
+        font-size: 1em;
+    }
+}

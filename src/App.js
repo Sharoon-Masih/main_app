@@ -128,13 +128,17 @@
 
 //Now creating first Restuarant project using React
 
-import Restuarant from "./component/basics/restuarant";
-
-import React from 'react'
+// import Restuarant from "./component/basics/restuarant";
+// import UseState from "./component/hooks/useState";
+// import UseEffect from "./component/hooks/useEffect";
+// import UseReducer from "./component/hooks/useReducer";
+// import Todo from './component/todo-project/todo';
+import Temp from './component/weather/temp';
+// import React from 'react'
 
 const App = () => {
   return (
-    <Restuarant/> 
+    <Temp />
   )
 }
 

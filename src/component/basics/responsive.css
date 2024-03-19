@@ -1,0 +1,40 @@
+@media screen and (max-height:700px) {
+    body{
+        background-color: white;
+    }
+    .card{
+        max-height: 67vh;
+    }
+
+}
+@media screen and (max-width:1380px) {
+    body{
+        background-color: yellow
+    }
+    .card-tag button{
+        margin-right: 1.5vw;
+    }
+
+}
+
+@media screen and (max-width:412px) {
+    .barContainer{
+        flex-direction:row;
+    }
+    .bar{
+        flex-direction: column;
+        height: 20vh;
+    }
+    .item{
+        padding: 5px
+    }
+    .Card-Container{
+        grid-template-columns: auto auto;
+    }
+    .card{
+        width: 40vw;
+        height: 50vh;
+        /* max-width: 300vw; */
+    }
+
+}

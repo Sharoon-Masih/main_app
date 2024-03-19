@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    /* background-image: url("./istockphoto-1478944102-170667a.webp"); */
+    /* background-size:cover; */
+    background-color: rgba(72, 6, 72, 0.855);
+
+}
+.main_div{
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "roboto";
+}
+.todologo{
+    position: relative;
+    /* right: 2px; */
+    color: white;
+}
+.todologo .logo{
+    height: 9vh;
+    width: 5vw;
+    
+}
+.todologo .caption{
+    margin: 8px 0px;
+    /* position: relative; */
+    right: 9px;
+}
+.search .bar{
+    position: relative;
+    left: 5px;
+    background-color:white;
+    width: 18vw;
+    height: 4vh;
+    /* text-align: center; */
+    font-size: small;
+    padding: 0px  4px;
+    border-radius: 8px;
+    /* border-color: white; */
+    border: 2px solid white;
+    color: rgb(104, 101, 101)
+}
+.plus{
+  position: relative;
+  right: 20px;
+  color: rgb(104, 101, 101);
+  cursor: pointer;
+}
+.plus:hover{
+    color:  rgb(40, 197, 40);
+}
+.bar:focus{
+    outline:none ;/* its means jab bar pa focus hoga yani jab bar pa click krenga toh uski jo blue outline ati hai wo nahi ayegi. */
+}
+.bar:hover{
+    border: 3px solid rgb(171, 0, 171);
+    border-radius: 8px;
+}
+.check{
+    /* position: relative; */
+    margin: 18px 0px;
+    right:9px ;
+    /* transform: translateY(2px); */
+}
+.check .btn{
+    width: 8vw;
+    height: 5vh;
+    padding: 2px;
+    border-radius: 4px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: smaller;
+    color: gray;
+    background-color: white;
+    border-color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    color: white;
+    border: radius 4px; ;
+    background-color: rgb(171, 0, 171);
+}
+.showItems{
+    margin: 18px 0px 0px 0px;
+    padding: 3px 12px;
+    display: flex;
+    font-size: small;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(171, 0, 171);
+    color: white;
+    border-radius: 7px;
+    width: 15vw;
+    height: 3vh;
+}
+.btn1 .logo1{
+   padding: 0px 7px;
+}
+.showItems:hover{
+   background-color: white;
+   color:  rgb(171, 0, 171);
+.logo1{
+    color: rgb(40, 197, 40);
+}
+.logo2{
+   color: red;
+}
+}

@@ -45,16 +45,14 @@ body{
     background-color: lightgoldenrodyellow;
     width: 50vw;
     height: 7vh;
+    /* max-height: vh; */
     border-radius: 25px;
     justify-content: center;
     align-items: center;
     z-index: 2;
 
 }
-.items{
-    display: flex;
-    
-}
+
 .item{
     padding: 0% 20px;
 }
@@ -108,6 +106,7 @@ body{
 }
 .card{
     width: 21vw;
+    max-width: 25vw;
     max-height: 57vh; /*yaha max-height iss lia use ki hai ka "57vh" sa greater height nahi hogi kisi be card ki.*/
     display: inline-block;
   background-color: white;
@@ -159,7 +158,7 @@ body{
 .card-read{
     display: inline-block;
     position: relative;
-    left: 28px;
+    left: 2.5vw;
     margin: 0 2px 0 2px;
     letter-spacing: 6px;
     font-weight: bolder;
@@ -172,8 +171,8 @@ body{
 .card-img img{
     
     margin: 10px 0 0 0;
-    width: 274px;
-  height: 160px;;
+    width: 18vw;
+  height: 18vh;;
     box-sizing: border-box;
     overflow: hidden;
     
@@ -181,11 +180,16 @@ body{
 .card-tag{
     display: inline-block;
     position: relative;
-    left: 40%;
+    left: 7.5vw;
     margin: 5px 0 0 0;
+    width: 5vw;
+    height: 3vh;
+    box-sizing: border-box;
 }
 .card-tag button{
     padding: 5px;
+    /* height: 4vh;
+    width: 5vw; */
 }
 .card-price{
     display: inline-block;
